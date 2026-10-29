@@ -1,51 +1,36 @@
-# CPK Ingeniería · Canagro / El Gauchito
+# CPK Ingeniería · Canagro S.A.
 
-Propuesta inicial de trabajo conjunto. Revisión 03 · 29/10/2026.
+Propuesta R05 · 29/10/2026.
 
-## Contenido
+## Publicación
 
-- `index.html`: presentación completa, adaptable a celular e impresión.
-- `.nojekyll`: indica a GitHub Pages que publique los archivos sin procesarlos con Jekyll.
-- `README.md`: instrucciones para publicar.
+1. Descomprimí el ZIP.
+2. Subí `index.html`, `.nojekyll`, `README.md` y la carpeta `pdf` a la raíz del repositorio. Conservá los nombres y la estructura. No subas el ZIP en lugar de los archivos.
+3. En Settings > Pages, elegí Deploy from a branch, la rama con los archivos (habitualmente main) y / (root). Guardá.
+4. Abrí el enlace que GitHub muestre una vez finalizado el despliegue. Verificá su estado en Actions.
 
-Las imágenes y los estilos están incluidos en `index.html`. No requiere instalación, compilación, servidor de aplicación ni claves. Los enlaces a fuentes técnicas se consultan en los sitios de los fabricantes.
+Si actualizás un repositorio existente, reemplazá el index y agregá o actualizá toda la carpeta pdf. Los cuatro enlaces deben funcionar.
 
-## Publicar desde la web de GitHub
+## Archivos
 
-1. Descomprimí el ZIP en tu computadora.
-2. Creá un repositorio. Nombre sugerido: `cpk-canagro` (podés elegir otro).
-3. Dentro del repositorio, elegí **Add file → Upload files**.
-4. Subí los archivos de esta carpeta directamente en la raíz del repositorio. Debe verse `index.html` al abrir el repositorio, sin entrar en otra carpeta. No subas el ZIP como sustituto de los archivos.
-5. Confirmá la carga con **Commit changes**.
-6. Entrá en **Settings → Pages**.
-7. En **Build and deployment → Source**, seleccioná **Deploy from a branch**.
-8. Seleccioná la rama que contiene los archivos (habitualmente `main`) y la carpeta **/ (root)**. Presioná **Save**.
-9. Esperá a que termine la publicación y abrí la dirección que GitHub muestre en esa misma pantalla. También podés revisar el resultado de la publicación en **Actions**.
+- index.html: presentación completa con logo e imagen incorporados.
+- pdf/: cuatro documentos, uno por frente y un resumen.
+- .nojekyll: publicación estática sin procesamiento Jekyll.
+- README.md: estas instrucciones.
 
-Dirección habitual para un repositorio de proyecto: `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/`.
-Usá el enlace que devuelva GitHub como referencia definitiva.
+El HTML descargado por separado es autocontenido para presentar. El index de GitHub incorpora además enlaces relativos a los PDF de la carpeta pdf.
 
-## Si no se carga `.nojekyll`
+## Verificación
 
-El archivo ya está incluido en el ZIP y tiene contenido para facilitar su carga. Si tu explorador no lo muestra, activá la visualización de archivos ocultos. También podés crearlo dentro de GitHub mediante **Add file → Create new file**, con el nombre exacto `.nojekyll` y el texto `HTML estático CPK`. El nombre lleva punto inicial y no lleva `.txt` al final.
+- La portada identifica Canagro S.A. y revisión 05.
+- El logo CPK se ve en la presentación y los cuatro PDF.
+- Los tres frentes y los ejemplos PQCDS se abren y leen correctamente.
+- Los cuatro PDF se descargan desde los enlaces de la página.
+- Las imágenes ilustrativas no requieren conexión a otros sitios.
+- El botón Imprimir / PDF abre el diálogo del navegador.
 
-## Verificación después de publicar
+Si no ves .nojekyll, activá archivos ocultos. Podés crearlo en GitHub con Add file > Create new file, nombre exacto .nojekyll y texto HTML estático CPK. No agregues .txt.
 
-- La portada debe indicar Canagro / El Gauchito y revisión 03.
-- Deben abrirse los tres frentes desde la navegación superior.
-- La imagen del robot y las dos ilustraciones termográficas deben verse sin descargas externas.
-- La sección PQCDS debe incluir la tabla numérica «cumple / no cumple».
-- El botón **Imprimir / PDF** debe abrir el diálogo de impresión del navegador. Para guardar un PDF, seleccioná el destino correspondiente en ese diálogo.
-- Si aparece un error 404, revisá que `index.html` esté en la raíz y que la rama/carpeta configuradas sean las que contienen los archivos. Verificá el estado del despliegue en Actions antes de volver a cargar.
+Los ejemplos numéricos y las imágenes son ilustrativos; alcances y metas se acuerdan con el cliente.
 
-## Actualizar la propuesta
-
-Reemplazá `index.html` por la versión actualizada y confirmá el cambio en la misma rama. GitHub Pages publicará ese cambio según la configuración del repositorio. No cambies el nombre del archivo de inicio.
-
-## Alcance del documento
-
-Los ejemplos numéricos son ilustrativos. Las funciones de catálogo no certifican la configuración instalada en Canagro. Las imágenes generadas son ilustrativas y no representan mediciones reales. Los alcances y metas se acuerdan con el cliente.
-
-## Documentación oficial
-
-https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+Documentación: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
