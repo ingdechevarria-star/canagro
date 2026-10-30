@@ -1,6 +1,6 @@
 # CPK Ingeniería · Canagro S.A.
 
-Propuesta R05 · 29/10/2026.
+Propuesta R07 · 29/10/2026.
 
 ## Publicación
 
@@ -14,7 +14,7 @@ Si actualizás un repositorio existente, reemplazá el index y agregá o actuali
 ## Archivos
 
 - index.html: presentación completa con logo e imagen incorporados.
-- pdf/: cuatro documentos, uno por frente y un resumen.
+- pdf/: cuatro documentos, uno por frente independiente y un resumen.
 - .nojekyll: publicación estática sin procesamiento Jekyll.
 - README.md: estas instrucciones.
 
@@ -22,7 +22,7 @@ El HTML descargado por separado es autocontenido para presentar. El index de Git
 
 ## Verificación
 
-- La portada identifica Canagro S.A. y revisión 05.
+- La portada identifica Canagro S.A. y revisión 07.
 - El logo CPK se ve en la presentación y los cuatro PDF.
 - Los tres frentes y los ejemplos PQCDS se abren y leen correctamente.
 - Los cuatro PDF se descargan desde los enlaces de la página.
